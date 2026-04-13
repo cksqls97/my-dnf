@@ -192,7 +192,7 @@ export default function Home() {
                   <td style={{ textAlign: 'center' }}>
                     {c.charId ? (
                       <a 
-                        href={`https://dundam.xyz/character?server=${c.base.server}&character=${c.charId}`} 
+                        href={`https://dundam.xyz/character?server=${c.base.server}&key=${c.charId}`} 
                         target="_blank" 
                         rel="noopener noreferrer"
                         style={{ color: '#38bdf8', textDecoration: 'none', fontWeight: 'bold' }}
